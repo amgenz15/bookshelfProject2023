@@ -1,4 +1,4 @@
-package persistence;
+package amgenz.persistence;
 
 public class AuthorDaoTest {
 }

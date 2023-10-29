@@ -1,4 +1,4 @@
-package util;
+package amgenz.util;
 
 import java.io.IOException;
 import java.util.Properties;
