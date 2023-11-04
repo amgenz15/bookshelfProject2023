@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Genre.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.applicationServers",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -168,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698274644807</updated>
       <workItem from="1698274646390" duration="4397000" />
-      <workItem from="1698613859156" duration="6313000" />
+      <workItem from="1698613859156" duration="8171000" />
     </task>
     <servers />
   </component>
