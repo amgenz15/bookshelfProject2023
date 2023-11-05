@@ -1,0 +1,6 @@
+amgenz\persistence\SessionFactoryProvider.class
+amgenz\util\PropertiesLoader.class
+amgenz\entity\Genre.class
+amgenz\persistence\GenericDao.class
+amgenz\entity\Author.class
+amgenz\entity\Book.class
