@@ -10,22 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/amgenz/persistence/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/taglib.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca0dd093-56dc-4317-a53e-6da237a43283.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ca0dd093-56dc-4317-a53e-6da237a43283.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/DisplayAllBooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/DisplayAllBooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/persistence/BookDao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/persistence/AuthorDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amgenz/persistence/AuthorDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DisplayAllBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DisplayAllBooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/SearchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/SearchBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/entity/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/persistence/BookDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayAllBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayAllBooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/entity/Author.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/amgenz/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/entity/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/entity/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/persistence/BookDao.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amgenz/persistence/AuthorDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/amgenz/persistence/AuthorDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +207,7 @@
       <workItem from="1698274646390" duration="4397000" />
       <workItem from="1698613859156" duration="8672000" />
       <workItem from="1699215787164" duration="4241000" />
-      <workItem from="1699826489931" duration="5024000" />
+      <workItem from="1699826489931" duration="8282000" />
     </task>
     <servers />
   </component>

@@ -18,6 +18,9 @@ public class Genre {
     @Column(name = "genre_name")
     private String genre;
 
+    @ManyToOne
+    private Book book;
+
     /**
      * Instantiates a new Genre.
      */

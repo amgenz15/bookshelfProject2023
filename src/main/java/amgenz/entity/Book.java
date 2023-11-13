@@ -20,10 +20,6 @@ public class Book {
     private String title;
     private String summary;
     private int series;
-    @ManyToOne
-    private Author author;
-    @ManyToOne
-    private Genre genre;
 
     @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Author> authorList = new HashSet<>();
@@ -34,12 +30,10 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, String summary, int series, Author author, Genre genre) {
+    public Book(String title, String summary, int series) {
         this.title = title;
         this.summary = summary;
         this.series = series;
-        this.author = author;
-        this.genre = genre;
     }
 
     public int getId() {
@@ -74,22 +68,6 @@ public class Book {
         this.series = series;
     }
 
-    public Author getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(Author author) {
-        this.author = author;
-    }
-
-    public Genre getGenre() {
-        return genre;
-    }
-
-    public void setGenre(Genre genre) {
-        this.genre = genre;
-    }
-
     public Set<Author> getAuthorList() {
         return authorList;
     }
@@ -113,23 +91,10 @@ public class Book {
                 ", title='" + title + '\'' +
                 ", summary='" + summary + '\'' +
                 ", series=" + series +
-                ", author=" + author +
-                ", genre=" + genre +
                 ", authorList=" + authorList +
                 ", genreList=" + genreList +
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Book book = (Book) o;
-        return id == book.id && series == book.series && title.equals(book.title) && Objects.equals(summary, book.summary) && author.equals(book.author) && genre.equals(book.genre);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, title, summary, series, author, genre, authorList, genreList);
-    }
 }

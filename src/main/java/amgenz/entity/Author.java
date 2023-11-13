@@ -23,6 +23,9 @@ public class Author {
     private String lastName;
     private String about;
 
+    @ManyToOne
+    private Book book;
+
     /**
      * Instantiates a new Author.
      */

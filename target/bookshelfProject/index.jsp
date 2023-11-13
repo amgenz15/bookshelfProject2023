@@ -1,7 +1,9 @@
+<%@include file="taglib.jsp"%>
 <html>
 <body>
-    <form>
-        <button type="submit" name="submit" value="viewAll">View All Books</button>
-    </form>
+
+<div>
+    <a href="displayBooks" >Browse All Recipes</a>
+</div>
 </body>
 </html>

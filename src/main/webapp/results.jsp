@@ -3,7 +3,12 @@
 <body>
 
 <div class="container-fluid">
-    <h2>Search Results: </h2>
+    <h2>Your Bookshelf:</h2>
+    <form action="searchBook" method="get" class="form-inline" id="searchForm">
+        <input type="text" id="searchBookName" name="searchBookName" placeholder="Search a book name...">
+        <button type="submit" name="submit" value="search">Search</button>
+        <button type="submit" name="submit" value="addBook">Add a Book</button>
+    </form>
     <table>
         <thead>
         <th>Title:</th>
@@ -16,6 +21,10 @@
                 <td>${book.title}</td>
                 <td>${book.summary}</td>
                 <td>${book.series}</td>
+                <form action="deleteBook" name="book" method="GET">
+                    <input type="hidden" id="bookId" name="bookId" value="${book.id}">
+                    <button type="submit" name="submit" value="deleteBook">Delete</button>
+                </form>
             </tr>
         </c:forEach>
         </tbody>

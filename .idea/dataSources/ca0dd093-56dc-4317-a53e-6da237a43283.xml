@@ -1141,11 +1141,15 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <foreign-key id="315" parent="299" name="book_author_id_fk">
       <ColNames>author_id</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefTableName>author</RefTableName>
     </foreign-key>
     <foreign-key id="316" parent="299" name="book_genre_id_fk">
       <ColNames>genre_id</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <OnUpdate>cascade</OnUpdate>
       <RefColNames>id</RefColNames>
       <RefTableName>genre</RefTableName>
     </foreign-key>

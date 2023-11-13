@@ -2,12 +2,11 @@ C:\bookshelfProject\src\main\java\amgenz\persistence\SessionFactoryProvider.java
 C:\bookshelfProject\src\main\java\amgenz\controller\EditBook.java
 C:\bookshelfProject\src\main\java\amgenz\persistence\GenericDao.java
 C:\bookshelfProject\src\main\java\amgenz\util\PropertiesLoader.java
-C:\bookshelfProject\src\main\java\amgenz\entity\Genre.java
-C:\bookshelfProject\src\main\java\amgenz\entity\Book.java
-C:\bookshelfProject\src\main\java\amgenz\controller\DisplayBook.java
-C:\bookshelfProject\src\main\java\amgenz\controller\SearchBook.java
-C:\bookshelfProject\src\main\java\amgenz\persistence\BookDao.java
 C:\bookshelfProject\src\main\java\amgenz\controller\DisplayAllBooks.java
 C:\bookshelfProject\src\main\java\amgenz\entity\Author.java
+C:\bookshelfProject\src\main\java\amgenz\entity\Genre.java
 C:\bookshelfProject\src\main\java\amgenz\controller\DeleteBook.java
+C:\bookshelfProject\src\main\java\amgenz\entity\Book.java
+C:\bookshelfProject\src\main\java\amgenz\controller\DisplayBook.java
 C:\bookshelfProject\src\main\java\amgenz\controller\AddBook.java
+C:\bookshelfProject\src\main\java\amgenz\controller\SearchBook.java
