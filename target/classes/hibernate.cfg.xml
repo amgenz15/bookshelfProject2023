@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/bookshelfProject</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/bookshelf</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">Digger123..!</property>
@@ -15,5 +15,6 @@
         <property name="hibernate.c3p0.idle_test_period">3000</property>
         <mapping class="amgenz.entity.Author"/>
         <mapping class="amgenz.entity.Book"/>
+        <mapping class="amgenz.entity.Genre"/>
     </session-factory>
 </hibernate-configuration>

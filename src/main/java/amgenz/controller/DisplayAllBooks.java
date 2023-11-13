@@ -1,5 +1,6 @@
 package amgenz.controller;
 
+import amgenz.persistence.BookDao;
 import amgenz.persistence.GenericDao;
 import amgenz.entity.Book;
 import org.apache.logging.log4j.LogManager;
@@ -26,10 +27,10 @@ public class DisplayAllBooks extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.info("In the doGet to display all books.");
-        GenericDao bookDao = new GenericDao(Book.class);
-        req.setAttribute("books", bookDao.getAll());
+        BookDao bookDao = new BookDao();
+        req.setAttribute("books", bookDao.getAllBooks());
         logger.info("All books have been grabbed from the database.");
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/browseAll.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
     }
 

@@ -1,6 +1,13 @@
 amgenz\persistence\SessionFactoryProvider.class
-amgenz\util\PropertiesLoader.class
 amgenz\entity\Genre.class
-amgenz\persistence\GenericDao.class
 amgenz\entity\Author.class
+amgenz\controller\AddBook.class
+amgenz\persistence\BookDao.class
+amgenz\controller\DeleteBook.class
+amgenz\controller\SearchBook.class
+amgenz\util\PropertiesLoader.class
+amgenz\persistence\GenericDao.class
+amgenz\controller\DisplayAllBooks.class
+amgenz\controller\EditBook.class
 amgenz\entity\Book.class
+amgenz\controller\DisplayBook.class

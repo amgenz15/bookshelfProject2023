@@ -1,5 +1,7 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+    <form>
+        <button type="submit" name="submit" value="viewAll">View All Books</button>
+    </form>
 </body>
 </html>
