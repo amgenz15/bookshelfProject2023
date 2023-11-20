@@ -1,0 +1,107 @@
+[INFO ] 2023-11-19 17:31:03.642 [main] GenericDao - In the getAll method in the dao.
+[INFO ] 2023-11-19 17:31:05.459 [main] GenericDao - After query was made to get all.
+[INFO ] 2023-11-19 17:31:05.529 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:33:48.247 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:34:27.572 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:34:28.991 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 17:34:29.030 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:36:39.177 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:36:40.577 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 17:36:40.635 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:00.084 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:00.099 [main] GenericDao - Entity has been deleted. Inside the delete function in the dao.
+[INFO ] 2023-11-19 17:38:00.117 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:15.112 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:15.119 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 17:38:15.135 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:49.992 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:38:50.001 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 17:38:50.029 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:40:04.029 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 17:40:05.446 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:40:05.457 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:40:27.117 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 17:40:28.499 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:40:28.504 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:41:36.514 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 17:41:37.909 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:41:37.912 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:41:56.949 [main] GenericDao - Entity has gotten property by like value in the dao
+[INFO ] 2023-11-19 17:42:08.031 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:42:08.042 [main] GenericDao - Entity has been deleted. Inside the delete function in the dao.
+[INFO ] 2023-11-19 17:42:08.060 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:42:08.101 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 17:42:08.113 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:42:08.117 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 17:42:08.297 [main] GenericDao - Entity has gotten property by like value in the dao
+[INFO ] 2023-11-19 17:42:08.338 [main] GenericDao - In the getAll method in the dao.
+[INFO ] 2023-11-19 17:42:08.361 [main] GenericDao - After query was made to get all.
+[INFO ] 2023-11-19 17:42:08.421 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:42:08.464 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:42:08.466 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 17:42:08.480 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:42:08.550 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:42:08.558 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 17:42:08.565 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:45:58.088 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:45:59.550 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 17:45:59.578 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:55:39.740 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:55:42.291 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 17:55:43.776 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 17:55:43.812 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 17:58:15.105 [main] GenericDao - In the getAll method in the dao.
+[INFO ] 2023-11-19 17:58:16.672 [main] GenericDao - After query was made to get all.
+[INFO ] 2023-11-19 17:59:08.882 [main] GenericDao - In the getAll method in the dao.
+[INFO ] 2023-11-19 17:59:10.576 [main] GenericDao - After query was made to get all.
+[INFO ] 2023-11-19 18:01:20.239 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:01:36.467 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:05:38.460 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:05:39.954 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:05:39.992 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:20:47.444 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:20:47.458 [main] GenericDao - Entity has been deleted. Inside the delete function in the dao.
+[INFO ] 2023-11-19 18:20:47.487 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:23:01.380 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:23:01.390 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 18:23:01.416 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:23:30.368 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:23:30.377 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 18:23:30.405 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:26:32.279 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:26:32.289 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 18:26:32.321 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:28:29.842 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:28:31.536 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:28:31.570 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:31:32.421 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 18:31:34.595 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 18:31:34.600 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 18:32:27.218 [main] GenericDao - Entity has gotten property by like value in the dao
+[INFO ] 2023-11-19 18:32:40.970 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:32:40.986 [main] GenericDao - Entity has been deleted. Inside the delete function in the dao.
+[INFO ] 2023-11-19 18:32:41.019 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:32:41.065 [main] GenericDao - In the getByPropertyEqual method in the Generic Dao.
+[INFO ] 2023-11-19 18:32:41.086 [main] GenericDao - Before the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 18:32:41.091 [main] GenericDao - After the query in the getByPropertyEqual method.
+[INFO ] 2023-11-19 18:32:41.337 [main] GenericDao - In the getAll method in the dao.
+[INFO ] 2023-11-19 18:32:41.365 [main] GenericDao - After query was made to get all.
+[INFO ] 2023-11-19 18:32:41.441 [main] GenericDao - Entity has gotten property by like value in the dao
+[INFO ] 2023-11-19 18:32:41.506 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:32:41.557 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:32:41.560 [main] GenericDao - Entity has been updated in the dao
+[INFO ] 2023-11-19 18:32:41.583 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:32:41.616 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:32:41.628 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:32:41.636 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:37:17.668 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:37:19.105 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:37:19.142 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:50:51.789 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:50:55.115 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:50:57.766 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:52:45.546 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:52:46.972 [main] GenericDao - After query was made inserted: 
+[INFO ] 2023-11-19 18:52:47.008 [main] GenericDao - Have gotten the entity by id in the dao.
+[INFO ] 2023-11-19 18:53:01.380 [main] GenericDao - in the insert method
+[INFO ] 2023-11-19 18:53:03.772 [main] GenericDao - After query was made inserted: 

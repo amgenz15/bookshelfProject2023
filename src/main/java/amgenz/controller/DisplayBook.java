@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.annotation.*;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * A simple servlet to display a book's details.
@@ -30,7 +29,6 @@ public class DisplayBook extends HttpServlet {
 
         GenericDao bookDao = new GenericDao(Book.class);
         GenericDao authorDao = new GenericDao(Author.class);
-        GenericDao genreDao = new GenericDao(Genre.class);
         int bookId;
 
         if (req.getParameter("submit").equals("bookDetails")) {
@@ -38,7 +36,6 @@ public class DisplayBook extends HttpServlet {
             Book bookToDisplay = (Book) bookDao.getById(bookId);
             req.setAttribute("book", bookToDisplay);
             req.setAttribute("bookAuthor", authorDao.getByPropertyEqualEntity("book", bookToDisplay));
-            req.setAttribute("bookGenre", genreDao.getByPropertyEqualEntity("book", bookToDisplay));
         }
         logger.info("The book info and their author have been grabbed from the database.");
         RequestDispatcher dispatcher = req.getRequestDispatcher("/bookProfile.jsp");

@@ -3,9 +3,6 @@ package amgenz.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
 
 /**
  * The type Book.
@@ -19,69 +16,165 @@ public class Book {
     private int id;
     private String title;
     private String summary;
+    private String img;
+    private String genre;
     private int series;
+    @ManyToOne
+    @JoinColumn(name = "authorId",
+            foreignKey = @ForeignKey(name = "book_author_id_fk")
+    )
+    private Author author;
 
-    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Author> authorList = new HashSet<>();
-
-    @OneToMany(mappedBy = "book", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Genre> genreList = new HashSet<>();
-
+    /**
+     * Instantiates a new Book.
+     */
     public Book() {
     }
 
-    public Book(String title, String summary, int series) {
+    /**
+     * Instantiates a new Book.
+     *
+     * @param title   the title
+     * @param summary the summary
+     * @param img     the img
+     * @param genre   the genre
+     * @param series  the series
+     * @param author  the author
+     */
+    public Book(String title, String summary, String img, String genre, int series, Author author) {
         this.title = title;
         this.summary = summary;
+        this.img = img;
+        this.genre = genre;
         this.series = series;
+        this.author = author;
     }
 
+
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
     public void setId(int id) {
         this.id = id;
     }
 
+    /**
+     * Gets title.
+     *
+     * @return the title
+     */
     public String getTitle() {
         return title;
     }
 
+    /**
+     * Sets title.
+     *
+     * @param title the title
+     */
     public void setTitle(String title) {
         this.title = title;
     }
 
+    /**
+     * Gets summary.
+     *
+     * @return the summary
+     */
     public String getSummary() {
         return summary;
     }
 
+    /**
+     * Sets summary.
+     *
+     * @param summary the summary
+     */
     public void setSummary(String summary) {
         this.summary = summary;
     }
 
+    /**
+     * Gets img.
+     *
+     * @return the img
+     */
+    public String getImg() {
+        return img;
+    }
+
+    /**
+     * Sets img.
+     *
+     * @param img the img
+     */
+    public void setImg(String img) {
+        this.img = img;
+    }
+
+    /**
+     * Gets genre.
+     *
+     * @return the genre
+     */
+    public String getGenre() {
+        return genre;
+    }
+
+    /**
+     * Sets genre.
+     *
+     * @param genre the genre
+     */
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    /**
+     * Gets series.
+     *
+     * @return the series
+     */
     public int getSeries() {
         return series;
     }
 
+    /**
+     * Sets series.
+     *
+     * @param series the series
+     */
     public void setSeries(int series) {
         this.series = series;
     }
 
-    public Set<Author> getAuthorList() {
-        return authorList;
+    /**
+     * Gets author.
+     *
+     * @return the author
+     */
+    public Author getAuthor() {
+        return author;
     }
 
-    public void setAuthorList(Set<Author> authorList) {
-        this.authorList = authorList;
-    }
-
-    public Set<Genre> getGenreList() {
-        return genreList;
-    }
-
-    public void setGenreList(Set<Genre> genreList) {
-        this.genreList = genreList;
+    /**
+     * Sets author.
+     *
+     * @param author the author
+     */
+    public void setAuthor(Author author) {
+        this.author = author;
     }
 
     @Override
@@ -90,11 +183,10 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", summary='" + summary + '\'' +
+                ", img='" + img + '\'' +
+                ", genre='" + genre + '\'' +
                 ", series=" + series +
-                ", authorList=" + authorList +
-                ", genreList=" + genreList +
+                ", author=" + author +
                 '}';
     }
-
-
 }

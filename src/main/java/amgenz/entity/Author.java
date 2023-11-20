@@ -3,7 +3,9 @@ package amgenz.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 /**
  * The type Author.
@@ -23,8 +25,8 @@ public class Author {
     private String lastName;
     private String about;
 
-    @ManyToOne
-    private Book book;
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Book> bookList = new HashSet<>();
 
     /**
      * Instantiates a new Author.
@@ -135,6 +137,24 @@ public class Author {
      */
     public void setAbout(String about) {
         this.about = about;
+    }
+
+    /**
+     * Gets book list.
+     *
+     * @return the book list
+     */
+    public Set<Book> getBookList() {
+        return bookList;
+    }
+
+    /**
+     * Sets book list.
+     *
+     * @param bookList the book list
+     */
+    public void setBookList(Set<Book> bookList) {
+        this.bookList = bookList;
     }
 
     @Override
