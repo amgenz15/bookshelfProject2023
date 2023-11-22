@@ -4,6 +4,7 @@ import amgenz.entity.Author;
 import amgenz.entity.Book;
 import amgenz.persistence.GenericDao;
 import amgenz.test.util.Database;
+import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.List;
@@ -58,7 +59,7 @@ class BookDaoTest {
         int id = dao.insert(newBook);
         assertNotEquals(0,id);
         Book insertedBook = (Book) dao.getById(id);
-        assertEquals(newBook, insertedBook);
+        assertEquals(newBook,insertedBook);
     }
 
     /**
@@ -71,15 +72,15 @@ class BookDaoTest {
     }
 
     /**
-     * Verify Update success for a book.
-    */
+     * Verify Update success for an book.
+     */
     @Test
     void updateSuccess() {
         String genre = "Crime";
-        Book updateBook = (Book) dao.getById(4);
+        Book updateBook = (Book) dao.getById(6);
         updateBook.setGenre(genre);
         dao.saveOrUpdate(updateBook);
-        Book retrievedBook = (Book) dao.getById(4);
+        Book retrievedBook = (Book) dao.getById(6);
         assertEquals(updateBook, retrievedBook);
     }
 

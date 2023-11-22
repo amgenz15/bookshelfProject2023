@@ -1071,13 +1071,14 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="300" parent="298" name="id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>10</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
     <column id="301" parent="298" name="last_name">
       <DasType>varchar(30)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
     <column id="302" parent="298" name="middle_name">
@@ -1086,10 +1087,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="303" parent="298" name="about">
       <DasType>varchar(1500)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="304" parent="298" name="first_name">
       <DasType>varchar(25)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
     <index id="305" parent="298" name="PRIMARY">
@@ -1103,7 +1106,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="307" parent="299" name="id">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>21</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1115,10 +1118,12 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="309" parent="299" name="summary">
       <DasType>varchar(1500)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="310" parent="299" name="series">
       <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <column id="311" parent="299" name="authorId">
@@ -1127,6 +1132,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="312" parent="299" name="genre">
       <DasType>varchar(50)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
     <column id="313" parent="299" name="img">

@@ -3,6 +3,7 @@ package amgenz.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * The type Book.
@@ -186,7 +187,19 @@ public class Book {
                 ", img='" + img + '\'' +
                 ", genre='" + genre + '\'' +
                 ", series=" + series +
-                ", author=" + author +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Book book = (Book) o;
+        return id == book.id && series == book.series && title.equals(book.title) && summary.equals(book.summary) && Objects.equals(img, book.img) && genre.equals(book.genre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, title, summary, img, genre, series);
     }
 }

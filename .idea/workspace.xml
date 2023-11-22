@@ -10,29 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca0dd093-56dc-4317-a53e-6da237a43283.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ca0dd093-56dc-4317-a53e-6da237a43283.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/DisplayBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/DisplayBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bookshelfLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Author.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/entity/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/persistence/AuthorDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amgenz/test/persistence/AuthorDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/persistence/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/persistence/GenreDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/util/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amgenz/test/util/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amgenz/persistence/AuthorDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amgenz/persistence/BookDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amgenz/persistence/GenreDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/amgenz/util/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/cleandb.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/cleandb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,28 +61,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/bookshelfProject/src/test/java/amgenz/util&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/bookshelfProject/src/test/java/amgenz/util",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;derby&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "derby",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\bookshelfProject\src\test\java\amgenz\util" />
@@ -106,7 +95,7 @@
       <recent name="C:\bookshelfProject\src\main\java\amgenz\persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookDaoTest.insertSuccess">
+  <component name="RunManager" selected="JUnit.BookDaoTest">
     <configuration name="AuthorDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookshelfProject" />
       <extension name="coverage">
@@ -118,38 +107,6 @@
       <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
       <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.AuthorDaoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthorDaoTest.getByPropertyEqualSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bookshelfProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amgenz.test.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
-      <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.AuthorDaoTest" />
-      <option name="METHOD_NAME" value="getByPropertyEqualSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthorDaoTest.getByPropertyLikeSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bookshelfProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="amgenz.test.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
-      <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.AuthorDaoTest" />
-      <option name="METHOD_NAME" value="getByPropertyLikeSuccess" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookshelfProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amgenz.test.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
+      <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.BookDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookDaoTest.insertSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookshelfProject" />
       <extension name="coverage">
@@ -181,6 +153,22 @@
       <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
       <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.BookDaoTest" />
       <option name="METHOD_NAME" value="insertSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookDaoTest.updateSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookshelfProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amgenz.test.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amgenz.test.persistence" />
+      <option name="MAIN_CLASS_NAME" value="amgenz.test.persistence.BookDaoTest" />
+      <option name="METHOD_NAME" value="updateSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookDaoTest" />
+        <item itemvalue="JUnit.AuthorDaoTest" />
+        <item itemvalue="JUnit.BookDaoTest.updateSuccess" />
         <item itemvalue="JUnit.BookDaoTest.insertSuccess" />
         <item itemvalue="JUnit.AuthorDaoTest.insertSuccess" />
-        <item itemvalue="JUnit.AuthorDaoTest" />
-        <item itemvalue="JUnit.AuthorDaoTest.getByPropertyLikeSuccess" />
-        <item itemvalue="JUnit.AuthorDaoTest.getByPropertyEqualSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +285,8 @@
       <workItem from="1699215787164" duration="4241000" />
       <workItem from="1699826489931" duration="8428000" />
       <workItem from="1700178157480" duration="3445000" />
-      <workItem from="1700417361329" duration="13534000" />
+      <workItem from="1700417361329" duration="13803000" />
+      <workItem from="1700441871366" duration="4633000" />
     </task>
     <servers />
   </component>
@@ -316,10 +305,34 @@
           </properties>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java</url>
+          <line>56</line>
+          <properties class="amgenz.test.persistence.BookDaoTest" method="insertSuccess">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/amgenz/test/persistence/AuthorDaoTest.java</url>
           <line>60</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/amgenz/test/persistence/BookDaoTest.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/amgenz/test/persistence/AuthorDaoTest.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

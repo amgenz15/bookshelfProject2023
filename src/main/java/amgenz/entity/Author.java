@@ -173,7 +173,7 @@ public class Author {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Author author = (Author) o;
-        return id == author.id && firstName.equals(author.firstName) && middleName.equals(author.middleName) && lastName.equals(author.lastName) && about.equals(author.about);
+        return id == author.id && firstName.equals(author.firstName) && Objects.equals(middleName, author.middleName) && lastName.equals(author.lastName) && about.equals(author.about);
     }
 
     @Override
