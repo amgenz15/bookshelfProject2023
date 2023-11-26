@@ -22,13 +22,7 @@
     <h5>Author</h5>
     <p>${book.author.firstName} ${book.author.middleName} ${book.author.lastName}</p>
     <p>${book.author.about}</p>
-</div>
 
-<div>
-    <form action="deleteBook" name="deleteBook" method="GET">
-        <input type="hidden" id="bookId" name="bookId" value="${book.id}">
-        <button type="submit" name="submit" value="deleteBook">Delete</button>
-    </form>
 </div>
 </body>
 </html>

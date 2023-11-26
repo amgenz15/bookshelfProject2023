@@ -29,7 +29,7 @@ public class DisplayAllBooks extends HttpServlet {
         GenericDao bookDao = new GenericDao(Book.class);
         req.setAttribute("books", bookDao.getAll());
         logger.info("All books have been grabbed from the database.");
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/allBooks.jsp");
         dispatcher.forward(req, resp);
     }
 

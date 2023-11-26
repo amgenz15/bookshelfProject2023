@@ -34,7 +34,7 @@ public class SearchBook extends HttpServlet {
             req.setAttribute("books", dao.getAll());
             logger.info("Here is all the books");
         }
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/allBooks.jsp");
         dispatcher.forward(req, resp);
     }
 }
