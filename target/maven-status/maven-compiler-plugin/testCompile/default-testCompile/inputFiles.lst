@@ -1,4 +1,3 @@
-C:\bookshelfProject\src\test\java\amgenz\persistence\AuthorDaoTest.java
-C:\bookshelfProject\src\test\java\amgenz\util\Database.java
-C:\bookshelfProject\src\test\java\amgenz\persistence\BookDaoTest.java
-C:\bookshelfProject\src\test\java\amgenz\persistence\GenreDao.java
+C:\bookshelfProject\src\test\java\amgenz\test\util\Database.java
+C:\bookshelfProject\src\test\java\amgenz\test\persistence\BookDaoTest.java
+C:\bookshelfProject\src\test\java\amgenz\test\persistence\AuthorDaoTest.java

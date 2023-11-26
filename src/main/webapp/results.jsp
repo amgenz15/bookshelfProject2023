@@ -14,6 +14,8 @@
         <th>Title:</th>
         <th>Summary:</th>
         <th>Series:</th>
+        <th></th>
+        <th></th>
         </thead>
         <tbody>
         <c:forEach var="book" items="${books}">
@@ -21,10 +23,12 @@
                 <td>${book.title}</td>
                 <td>${book.summary}</td>
                 <td>${book.series}</td>
-                <form action="deleteBook" name="book" method="GET">
-                    <input type="hidden" id="bookId" name="bookId" value="${book.id}">
-                    <button type="submit" name="submit" value="deleteBook">Delete</button>
-                </form>
+                <td>
+                    <form action="bookDetails" name="bookDetails" method="GET">
+                        <input type="hidden" id="bookId" name="bookId" value="${book.id}">
+                        <button type="submit" name="submit" value="bookDetails">Show Details</button>
+                    </form>
+                </td>
             </tr>
         </c:forEach>
         </tbody>

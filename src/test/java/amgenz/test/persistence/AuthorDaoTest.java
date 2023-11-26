@@ -63,6 +63,26 @@ class AuthorDaoTest {
     }
 
     /**
+     * Verify successful insert of an author with a book
+     */
+    @Test
+    void insertWithBookSuccess() {
+
+        Author newAuthor = new Author("Hanya", "", "Yanagihara", "Hanya Yanagihara (born 1974) is an American novelist, editor, and travel writer. She grew up in Hawaii. She is best known for her bestselling novel A Little Life, which was shortlisted for the 2015 Booker Prize, and for being the editor-in-chief of T Magazine." );
+
+        Book newBook = new Book("A Little Life", "A Little Life follows four college classmates—broke, adrift, and buoyed only by their friendship and ambition—as they move to New York in search of fame and fortune. While their relationships, which are tinged by addiction, success, and pride, deepen over the decades, the men are held together by their devotion to the brilliant, enigmatic Jude, a man scarred by an unspeakable childhood trauma. A hymn to brotherly bonds and a masterful depiction of love in the twenty-first century, Hanya Yanagihara’s stunning novel is about the families we are born into, and those that we make for ourselves.", null, "Fiction", 0, newAuthor);
+
+        newAuthor.addBook(newBook);
+
+        int id = dao.insert(newAuthor);
+
+        assertNotEquals(0,id);
+        Author insertedAuthor = (Author) dao.getById(id);
+        assertEquals(newAuthor, insertedAuthor);
+        assertEquals(1, insertedAuthor.getBookList().size());
+    }
+
+    /**
      * Verify successful delete of author
      */
     @Test

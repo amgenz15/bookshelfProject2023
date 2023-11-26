@@ -1,5 +1,4 @@
 amgenz\persistence\SessionFactoryProvider.class
-amgenz\entity\Genre.class
 amgenz\entity\Author.class
 amgenz\controller\AddBook.class
 amgenz\controller\DeleteBook.class

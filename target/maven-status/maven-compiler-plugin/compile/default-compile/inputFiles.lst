@@ -4,7 +4,6 @@ C:\bookshelfProject\src\main\java\amgenz\persistence\GenericDao.java
 C:\bookshelfProject\src\main\java\amgenz\util\PropertiesLoader.java
 C:\bookshelfProject\src\main\java\amgenz\controller\DisplayAllBooks.java
 C:\bookshelfProject\src\main\java\amgenz\entity\Author.java
-C:\bookshelfProject\src\main\java\amgenz\entity\Genre.java
 C:\bookshelfProject\src\main\java\amgenz\controller\DeleteBook.java
 C:\bookshelfProject\src\main\java\amgenz\entity\Book.java
 C:\bookshelfProject\src\main\java\amgenz\controller\DisplayBook.java

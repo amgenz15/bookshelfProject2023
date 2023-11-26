@@ -27,18 +27,16 @@ public class DisplayBook extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        logger.info("In the doGet to display book details.");
         GenericDao bookDao = new GenericDao(Book.class);
-        GenericDao authorDao = new GenericDao(Author.class);
-        int bookId;
 
         if (req.getParameter("submit").equals("bookDetails")) {
-            bookId = Integer.parseInt(req.getParameter("bookId"));
-            Book bookToDisplay = (Book) bookDao.getById(bookId);
-            req.setAttribute("book", bookToDisplay);
-            req.setAttribute("bookAuthor", authorDao.getByPropertyEqualEntity("book", bookToDisplay));
+            logger.info("In the if statement where 'Show Details' button was pushed.");
+            int bookId = Integer.parseInt(req.getParameter("bookId"));
+            req.setAttribute("book", bookDao.getById(bookId));
+            logger.info("Book details have been grabbed from the database.");
         }
-        logger.info("The book info and their author have been grabbed from the database.");
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookProfile.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookDetails.jsp");
         dispatcher.forward(req, resp);
     }
 }

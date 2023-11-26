@@ -157,6 +157,16 @@ public class Author {
         this.bookList = bookList;
     }
 
+    /**
+     * Add book.
+     *
+     * @param book the author's book
+     */
+    public void addBook(Book book) {
+        bookList.add(book);
+        book.setAuthor(this);
+    }
+
     @Override
     public String toString() {
         return "Author{" +

@@ -1,4 +1,3 @@
-amgenz\util\Database.class
-amgenz\persistence\AuthorDaoTest.class
-amgenz\persistence\GenreDao.class
-amgenz\persistence\BookDaoTest.class
+amgenz\test\persistence\BookDaoTest.class
+amgenz\test\persistence\AuthorDaoTest.class
+amgenz\test\util\Database.class
