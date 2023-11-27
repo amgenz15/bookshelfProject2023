@@ -1,14 +1,9 @@
 <%@include file="taglib.jsp"%>
+<c:set var="title" value="Search Results"/>
 <html>
 <body>
-
 <div class="container-fluid">
-    <h2>Your Bookshelf:</h2>
-    <form action="searchBook" method="get" class="form-inline" id="searchForm">
-        <input type="text" id="searchBookName" name="searchBookName" placeholder="Search a book name...">
-        <button type="submit" name="submit" value="search">Search</button>
-        <button type="submit" name="submit" value="addBook">Add a Book</button>
-    </form>
+    <h2>Search Results: </h2>
     <table>
         <thead>
         <th>Title:</th>
@@ -33,8 +28,6 @@
         </c:forEach>
         </tbody>
     </table>
-
 </div>
-
 </body>
 </html>

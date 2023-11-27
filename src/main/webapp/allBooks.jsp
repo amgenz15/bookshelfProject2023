@@ -5,7 +5,7 @@
 <div class="container-fluid">
     <h2>Your Bookshelf:</h2>
     <form action="searchBook" method="get" class="form-inline" id="searchForm">
-        <input type="text" id="searchBookName" name="searchBookName" placeholder="Search a book name...">
+        <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
         <button type="submit" name="submit" value="search">Search</button>
         <button type="submit" name="submit" value="addBook">Add a Book</button>
     </form>

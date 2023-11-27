@@ -27,14 +27,15 @@ public class SearchBook extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.info("In the doGet to search recipes.");
+        logger.info("In the doGet to search books.");
         GenericDao dao = new GenericDao(Book.class);
-        if (req.getParameter("submit").equals("viewAll")) {
+        if (req.getParameter("submit").equals("search")) {
             logger.info("In the if statement where search button was pushed.");
-            req.setAttribute("books", dao.getAll());
-            logger.info("Here is all the books");
+            req.setAttribute("books", dao.getByPropertyLike("title", req.getParameter("searchBookTitle")));
+            logger.info("Here is the found book/s:");
+
         }
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/allBooks.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
         dispatcher.forward(req, resp);
     }
 }
