@@ -10,23 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/deleteConfirmation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addConfirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bookshelfLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/DeleteBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/SearchBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookshelfProject/logs/bookshelfLog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookshelfProject/logs/hibernate.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/AddBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/bookshelfProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DeleteBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DisplayAllBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/DisplayAllBooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/SearchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/SearchBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/DeleteBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/DeleteBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayAllBooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/DisplayAllBooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/SearchBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/AddBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/AddBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" afterDir="false" />
@@ -281,9 +282,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthorDaoTest" />
         <item itemvalue="JUnit.AuthorDaoTest.insertWithBookSuccess" />
         <item itemvalue="JUnit.BookDaoTest" />
-        <item itemvalue="JUnit.AuthorDaoTest" />
         <item itemvalue="JUnit.BookDaoTest.updateSuccess" />
         <item itemvalue="JUnit.BookDaoTest.insertSuccess" />
       </list>
@@ -306,7 +307,8 @@
       <workItem from="1700441871366" duration="4942000" />
       <workItem from="1701027943139" duration="315000" />
       <workItem from="1701028418306" duration="76000" />
-      <workItem from="1701028512836" duration="8278000" />
+      <workItem from="1701028512836" duration="9036000" />
+      <workItem from="1701294373384" duration="6011000" />
     </task>
     <servers />
   </component>

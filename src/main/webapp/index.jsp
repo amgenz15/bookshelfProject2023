@@ -3,7 +3,7 @@
 <body>
 
 <div>
-    <a href="displayBooks" >Browse All Recipes</a>
+    <a href="displayBooks" >Browse All Books</a>
 </div>
 </body>
 </html>

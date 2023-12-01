@@ -7,7 +7,7 @@
     <form action="searchBook" method="get" class="form-inline" id="searchForm">
         <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
         <button type="submit" name="submit" value="search">Search</button>
-        <button type="submit" name="submit" value="addBook">Add a Book</button>
+        <a href="addBook.jsp" >Add Book</a>
     </form>
     <table>
         <thead>

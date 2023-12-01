@@ -1,7 +1,0 @@
-[INFO ] 2023-11-19 17:27:52.352 [main] GenericDao - Have gotten the entity by id in the dao.
-[INFO ] 2023-11-19 17:29:18.417 [main] GenericDao - In the getAll method in the dao.
-[INFO ] 2023-11-19 17:29:20.002 [main] GenericDao - After query was made to get all.
-[INFO ] 2023-11-19 17:29:20.055 [main] GenericDao - Have gotten the entity by id in the dao.
-[INFO ] 2023-11-19 17:30:46.806 [main] GenericDao - In the getAll method in the dao.
-[INFO ] 2023-11-19 17:30:48.534 [main] GenericDao - After query was made to get all.
-[INFO ] 2023-11-19 17:30:48.601 [main] GenericDao - Have gotten the entity by id in the dao.
