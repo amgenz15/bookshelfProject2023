@@ -10,24 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addConfirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/editBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/editConfirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookshelfProject/logs/bookshelfLog.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookshelfProject/logs/hibernate.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/AddBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/AddBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bookshelfLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amgenz/controller/EditBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amgenz/controller/EditBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/bookshelfProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/AddBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/log4j2.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/AddBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/AddBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/EditBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/WEB-INF/classes/amgenz/controller/EditBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/amgenz/controller/EditBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/amgenz/controller/EditBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" afterDir="false" />
@@ -105,7 +99,7 @@
       <recent name="C:\bookshelfProject\src\main\java\amgenz\persistence" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.95">
+  <component name="RunManager" selected="Tomcat Server.Tomcat ">
     <configuration name="AuthorDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bookshelfProject" />
       <extension name="coverage">
@@ -184,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.95" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.95" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.95" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="bookshelfProject:war">
@@ -194,7 +188,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="b14de829-8f57-421e-b556-b90486333f8b" />
+        <option name="BASE_DIRECTORY_NAME" value="ade7c009-0b91-406b-ac86-edc81fe1d8e9" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -202,7 +196,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56392" />
+        <option name="DEBUG_PORT" value="63841" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -278,7 +272,7 @@
       <item itemvalue="JUnit.BookDaoTest" />
       <item itemvalue="JUnit.BookDaoTest.insertSuccess" />
       <item itemvalue="JUnit.BookDaoTest.updateSuccess" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.95" />
+      <item itemvalue="Tomcat Server.Tomcat " />
     </list>
     <recent_temporary>
       <list>
@@ -308,7 +302,10 @@
       <workItem from="1701027943139" duration="315000" />
       <workItem from="1701028418306" duration="76000" />
       <workItem from="1701028512836" duration="9036000" />
-      <workItem from="1701294373384" duration="6011000" />
+      <workItem from="1701294373384" duration="10246000" />
+      <workItem from="1701645996999" duration="522000" />
+      <workItem from="1701646525424" duration="169000" />
+      <workItem from="1701646811540" duration="2479000" />
     </task>
     <servers />
   </component>

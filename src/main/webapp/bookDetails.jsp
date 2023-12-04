@@ -29,6 +29,10 @@
         <input type="hidden" id="bookId" name="bookId" value="${book.id}">
         <button type="submit" name="submit" value="deleteBook">Delete</button>
     </form>
+    <form action="editBook" name="editBook" method="GET">
+        <input type="hidden" id="book" name="book" value="${book.id}">
+        <button type="submit" name="submit" value="editBook">Edit Book</button>
+    </form>
 </div>
 </body>
 </html>
