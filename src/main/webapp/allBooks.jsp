@@ -1,6 +1,8 @@
 <%@include file="taglib.jsp"%>
 <html>
+<c:import url="head.jsp"/>
 <body>
+<c:import url="topbar.jsp"/>
 
 <div class="container-fluid">
     <h2>Your Bookshelf:</h2>

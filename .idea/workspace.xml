@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,6 +294,7 @@
       <workItem from="1701645996999" duration="522000" />
       <workItem from="1701646525424" duration="169000" />
       <workItem from="1701646811540" duration="3294000" />
+      <workItem from="1701903015654" duration="882000" />
     </task>
     <servers />
   </component>

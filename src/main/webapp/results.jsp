@@ -1,7 +1,9 @@
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="Search Results"/>
 <html>
+<c:import url="head.jsp"/>
 <body>
+<c:import url="topbar.jsp"/>
 <div class="container-fluid">
     <h2>Search Results: </h2>
     <table>
