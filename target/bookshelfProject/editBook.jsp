@@ -1,7 +1,8 @@
 <%@include file="taglib.jsp"%>
 <html>
-
+<c:import url="head.jsp"/>
 <body>
+<c:import url="topbar.jsp"/>
 <div class="container-fluid py-5">
     <div class="container">
         <div class="mx-auto text-center mb-5" style="max-width: 500px;">

@@ -55,15 +55,16 @@ public class AddBook extends HttpServlet {
         GenericDao authorDao = new GenericDao(Author.class);
 
         List<Author>  authors = authorDao.getByPropertyEqual("lastName", authorLastName);
-        Author author = authors.get(0);
-        if (author == null) {
+
+        if (authors.isEmpty()) {
             Author newAuthor = new Author(authorFirstName, authorMiddleName, authorLastName, authorAbout);
             int id = authorDao.insert(newAuthor);
             Author insertedAuthor = (Author) authorDao.getById(id);
-            Book newBook = new Book(bookTitle, summary, null, genre, series, insertedAuthor);
+            Book newBook = new Book(bookTitle, summary, genre, series, insertedAuthor);
             bookDao.insert(newBook);
         } else {
-            Book addedBook = new Book(bookTitle, summary, null, genre, series, author);
+            Author author = authors.get(0);
+            Book addedBook = new Book(bookTitle, summary, genre, series, author);
             bookDao.insert(addedBook);
         }
 

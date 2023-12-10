@@ -17,7 +17,6 @@ public class Book {
     private int id;
     private String title;
     private String summary;
-    private String img;
     private String genre;
     private int series;
     @ManyToOne
@@ -37,15 +36,13 @@ public class Book {
      *
      * @param title   the title
      * @param summary the summary
-     * @param img     the img
      * @param genre   the genre
      * @param series  the series
      * @param author  the author
      */
-    public Book(String title, String summary, String img, String genre, int series, Author author) {
+    public Book(String title, String summary, String genre, int series, Author author) {
         this.title = title;
         this.summary = summary;
-        this.img = img;
         this.genre = genre;
         this.series = series;
         this.author = author;
@@ -104,24 +101,6 @@ public class Book {
      */
     public void setSummary(String summary) {
         this.summary = summary;
-    }
-
-    /**
-     * Gets img.
-     *
-     * @return the img
-     */
-    public String getImg() {
-        return img;
-    }
-
-    /**
-     * Sets img.
-     *
-     * @param img the img
-     */
-    public void setImg(String img) {
-        this.img = img;
     }
 
     /**
@@ -184,7 +163,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", summary='" + summary + '\'' +
-                ", img='" + img + '\'' +
                 ", genre='" + genre + '\'' +
                 ", series=" + series +
                 '}';
@@ -195,11 +173,11 @@ public class Book {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
-        return id == book.id && series == book.series && title.equals(book.title) && summary.equals(book.summary) && Objects.equals(img, book.img) && genre.equals(book.genre);
+        return id == book.id && series == book.series && Objects.equals(title, book.title) && Objects.equals(summary, book.summary) && Objects.equals(genre, book.genre) && Objects.equals(author, book.author);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, summary, img, genre, series);
+        return Objects.hash(id, title, summary, genre, series, author);
     }
 }

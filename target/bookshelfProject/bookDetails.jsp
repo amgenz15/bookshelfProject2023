@@ -1,6 +1,8 @@
 <%@include file="taglib.jsp"%>
 <html>
-<body role="document">
+<c:import url="head.jsp"/>
+<body>
+<c:import url="topbar.jsp"/>
 <div>
     <div>
         <div>

@@ -37,7 +37,7 @@ class BookDaoTest {
     @Test
     void getAllBooksSuccess() {
         List<Book> book = dao.getAll();
-        assertEquals(5, book.size());
+        assertEquals(4, book.size());
     }
 
     /**
@@ -45,7 +45,7 @@ class BookDaoTest {
     */
     @Test
     void getByIdSuccess() {
-        Book retrievedBook = (Book) dao.getById(2);
+        Book retrievedBook = (Book) dao.getById(4);
         assertNotNull(retrievedBook);
         assertEquals("It Ends With Us ", retrievedBook.getTitle());
     }
@@ -55,7 +55,7 @@ class BookDaoTest {
      */
     @Test
     void insertSuccess() {
-        Book newBook = new Book("Verity", "A really good romance book",null, "Romance", 0, null);
+        Book newBook = new Book("Verity", "A really good romance book", "Romance", 0, null);
         int id = dao.insert(newBook);
         assertNotEquals(0,id);
         Book insertedBook = (Book) dao.getById(id);
@@ -67,8 +67,8 @@ class BookDaoTest {
     */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(6));
-        assertNull(dao.getById(6));
+        dao.delete(dao.getById(4));
+        assertNull(dao.getById(4));
     }
 
     /**
@@ -77,10 +77,10 @@ class BookDaoTest {
     @Test
     void updateSuccess() {
         String genre = "Crime";
-        Book updateBook = (Book) dao.getById(6);
+        Book updateBook = (Book) dao.getById(3);
         updateBook.setGenre(genre);
         dao.saveOrUpdate(updateBook);
-        Book retrievedBook = (Book) dao.getById(6);
+        Book retrievedBook = (Book) dao.getById(3);
         assertEquals(updateBook, retrievedBook);
     }
 
@@ -89,9 +89,9 @@ class BookDaoTest {
     */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Book> book = dao.getByPropertyEqual("series", "3");
+        List<Book> book = dao.getByPropertyEqual("title", "The Housemaid");
         assertEquals(1, book.size());
-        assertEquals(6, book.get(0).getId());
+        assertEquals(2, book.get(0).getId());
     }
 
     /**
