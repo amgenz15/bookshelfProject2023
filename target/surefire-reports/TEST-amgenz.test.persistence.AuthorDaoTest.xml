@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="amgenz.test.persistence.AuthorDaoTest" time="3.848" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="amgenz.test.persistence.AuthorDaoTest" time="5.529" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2022.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="deleteSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="3.127"/>
-  <testcase name="getByPropertyEqualSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.266"/>
-  <testcase name="getAllAuthorsSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.061"/>
-  <testcase name="getByPropertyLikeSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.059"/>
-  <testcase name="insertWithBookSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.093"/>
-  <testcase name="getByIdSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.051"/>
-  <testcase name="updateSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.07"/>
-  <testcase name="insertSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.048"/>
+  <testcase name="deleteSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="4.703"/>
+  <testcase name="getByPropertyEqualSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.322"/>
+  <testcase name="getAllAuthorsSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.088"/>
+  <testcase name="getByPropertyLikeSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.067"/>
+  <testcase name="insertWithBookSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.07"/>
+  <testcase name="getByIdSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.06"/>
+  <testcase name="updateSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.093"/>
+  <testcase name="insertSuccess" classname="amgenz.test.persistence.AuthorDaoTest" time="0.05"/>
 </testsuite>

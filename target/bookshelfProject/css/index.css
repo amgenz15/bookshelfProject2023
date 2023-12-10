@@ -1,0 +1,17 @@
+div#aboutInfo {
+    background-color: #e8d4c9;
+    text-align: center;
+    margin: 2em auto;
+    width: 75%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 5px #f0e2db;
+    padding: 2em;
+}
+
+a#displayBookButton {
+    background-color: #4c7cad;
+    text-decoration: none;
+    color: white;
+    border-radius: 5em;
+    padding: 1em;
+}

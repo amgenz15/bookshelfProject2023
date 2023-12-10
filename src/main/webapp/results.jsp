@@ -29,6 +29,13 @@
 <body>
 <c:import url="topbar.jsp"/>
 <div class="container-fluid">
+    <form action="searchBook" method="get" class="form-inline" id="searchForm">
+        <div class="search">
+            <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
+            <button type="submit" name="submit" value="search" >Search</button>
+        </div>
+        <a href="addBook.jsp" >Add Book</a>
+    </form><br><br>
     <h2>Search Results: </h2>
     <table>
         <thead>

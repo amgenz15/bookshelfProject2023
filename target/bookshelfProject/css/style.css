@@ -1,3 +1,38 @@
-img#logoIcon {
-    width: 25%;
+#topnav {
+    background-color: #8B5641;
+    overflow: hidden;
+}
+
+#topnav img {
+    float: left;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+}
+
+#rightnav {
+    float: right;
+}
+
+#rightnav a {
+    margin: auto;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2em;
+}
+
+#rightnav a:hover {
+    background-color: #D1A691;
+    color: white;
+}
+
+#rightnav a.active {
+    background-color: #b46e4b;
+    color: white;
+}
+
+p {
+    font-size: 15px;
 }
