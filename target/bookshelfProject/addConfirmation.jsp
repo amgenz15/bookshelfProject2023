@@ -24,13 +24,15 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/confirmation.css" rel="stylesheet">
 </head>
 
 <body>
 <c:import url="topbar.jsp"/>
+<div class="congratulations">
+    <h1>Yay! You have added a book! </h1>
 
-<h1>Yay! You have added a book! </h1>
-
-<a href="displayBooks" >Return to see all books</a>
+    <a href="displayBooks" class="allBooks">Return to see all books</a>
+</div>
 </body>
 </html>

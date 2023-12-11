@@ -10,15 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bookDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/confirmation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bookshelfLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/allBooks.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/allBooks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/deleteConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/deleteConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editConfirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/bookshelfProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/css/allBooks.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/css/allBooks.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/addConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/addConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/deleteConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/deleteConfirmation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/editConfirmation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/editConfirmation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" afterDir="false" />
@@ -306,7 +310,7 @@
       <workItem from="1701646525424" duration="169000" />
       <workItem from="1701646811540" duration="3294000" />
       <workItem from="1701903015654" duration="3557000" />
-      <workItem from="1701993535054" duration="21515000" />
+      <workItem from="1701993535054" duration="22919000" />
     </task>
     <servers />
   </component>
