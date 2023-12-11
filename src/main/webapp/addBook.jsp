@@ -22,8 +22,8 @@
         <label for="bookTitle" class="text-dark">Book Title:</label>
         <input type="text" id="bookTitle" class="form-control bg-light border-0 px-4" name="bookTitle" placeholder="Book Title" >
 
-        <label for="summary" class="text-dark">Summary:</label>
-        <input type="text" id="summary" class="form-control bg-light border-0 px-4" name="summary" placeholder="Book Summary" >
+        <label for="summary">Summary:</label>
+        <textarea id="summary" name="summary" rows="10" cols="190">Book Summary....</textarea>
 
         <label for="series" class="text-dark">Series (Book place in the series, if not in series just submit a 0):</label>
         <input type="number" id="series" class="form-control bg-light border-0 px-4" name="series" placeholder="0" >
@@ -40,8 +40,8 @@
         <label for="authorLastName" class="text-dark">Author's Last Name:</label>
         <input type="text" id="authorLastName" class="form-control bg-light border-0 px-4" name="authorLastName" placeholder="Last Name" >
 
-        <label for="authorAbout" class="text-dark">Author's About:</label>
-        <input type="text" id="authorAbout" class="form-control bg-light border-0 px-4" name="authorAbout" placeholder="Author's About Information" >
+        <label for="authorAbout">Author's About Information:</label>
+        <textarea id="authorAbout" name="authorAbout" rows="10" cols="190">Author's about information....</textarea>
 
         <button class="btn btn-secondary w-100 py-3" type="submit" name="submit" value="addBook">Add Book</button>
     </form>
