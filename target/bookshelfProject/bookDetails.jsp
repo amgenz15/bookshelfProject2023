@@ -51,7 +51,7 @@
         <p>${book.author.about}</p>
     </div>
 
-    <div>
+    <div id="buttonContainer">
         <form action="deleteBook" name="deleteBook" method="GET">
             <input type="hidden" id="bookId" name="bookId" value="${book.id}">
             <button type="submit" name="submit" value="deleteBook" id="delete">Delete</button>

@@ -24,18 +24,21 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/allBooks.css" rel="stylesheet">
 </head>
 
 <body>
 <c:import url="topbar.jsp"/>
-<div class="container-fluid">
-    <form action="searchBook" method="get" class="form-inline" id="searchForm">
-        <div class="search">
+<div  id="personalBookshelf">
+    <div id="secondaryNav"><br><br>
+        <form action="searchBook" method="get" class="form-inline" class="searchForm">
             <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
             <button type="submit" name="submit" value="search" >Search</button>
+        </form>
+        <div id="addBookButton">
+            <a href="addBook.jsp" >Add Book</a>
         </div>
-        <a href="addBook.jsp" >Add Book</a>
-    </form><br><br>
+    </div>
     <h2>Search Results: </h2>
     <table>
         <thead>

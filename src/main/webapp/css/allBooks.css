@@ -1,7 +1,10 @@
 div#personalBookshelf {
     text-align: center;
 }
-
+input[type=submit] {
+    width: 25%;
+    padding: 14px 20px;
+}
 div#secondaryNav div#addBookButton, form {
     display: inline-block;
 }

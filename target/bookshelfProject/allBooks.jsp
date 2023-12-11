@@ -29,8 +29,8 @@
 <body>
 <c:import url="topbar.jsp"/>
 
-<div id="personalBookshelf"><br><br>
-    <div id="secondaryNav">
+<div id="personalBookshelf">
+    <div id="secondaryNav"><br><br>
         <form action="searchBook" method="get" class="form-inline" class="searchForm">
             <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
             <button type="submit" name="submit" value="search" >Search</button>

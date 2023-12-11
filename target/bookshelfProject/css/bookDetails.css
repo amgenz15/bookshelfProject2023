@@ -6,6 +6,7 @@ div#bookDetails {
     box-shadow: 10px 10px 10px 5px #f0e2db;
     padding: 2em;
 }
+
 form {
     display: inline-block;
     margin: auto;
