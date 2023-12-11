@@ -30,11 +30,16 @@
 <c:import url="topbar.jsp"/>
 
 <div id="personalBookshelf"><br><br>
-    <form action="searchBook" method="get" class="form-inline" class="searchForm">
-        <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
-        <button type="submit" name="submit" value="search" >Search</button>
-        <a href="addBook.jsp" >Add Book</a>
-    </form><br><br>
+    <div id="secondaryNav">
+        <form action="searchBook" method="get" class="form-inline" class="searchForm">
+            <input type="text" id="searchBookTitle" name="searchBookTitle" placeholder="Search a book title...">
+            <button type="submit" name="submit" value="search" >Search</button>
+        </form>
+        <div id="addBookButton">
+            <a href="addBook.jsp" >Add Book</a>
+        </div>
+    </div>
+
     <table class="displayTable">
         <thead>
         <th>Title:</th>

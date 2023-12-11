@@ -2,23 +2,21 @@ div#personalBookshelf {
     text-align: center;
 }
 
-form a {
-    float: right;
-    margin: 2em;
-    background-color: #4c7cad;
-    text-decoration: none;
-    color: white;
-    border-radius: 10em;
-    padding: 1em;
+div#secondaryNav div#addBookButton, form {
+    display: inline-block;
 }
-form button {
+form button, div#secondaryNav div#addBookButton a{
     background-color: #4c7cad;
     color: white;
     border-radius: 5em;
     padding: .5em;
 }
 
-from button#detailsButton {
+div#secondaryNav div#addBookButton a {
+    text-decoration: none;
+}
+
+form button#detailsButton {
     padding: .7em;
 }
 .displayTable {

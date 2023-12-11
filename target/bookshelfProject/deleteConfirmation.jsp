@@ -30,7 +30,7 @@
 <body>
 <c:import url="topbar.jsp"/>
 <div class="congratulations">
-    <h1>Yay! You have deleted a book! </h1>
+    <h1>Yay! You have deleted a book! </h1><br><br><br>
     <a href="displayBooks" class="allBooks">Go back to all books</a>
 </div>
 
