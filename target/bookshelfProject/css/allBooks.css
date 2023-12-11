@@ -18,8 +18,8 @@ form button {
     padding: .5em;
 }
 
-form button#detailsButton {
-    border-radius: .4em;
+from button#detailsButton {
+    padding: .7em;
 }
 .displayTable {
     margin: 2em auto;
