@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <title>Bookshelf - Your own personal library!</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
     <link href="css/style.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
 </head>

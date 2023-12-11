@@ -10,31 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d942adbd-b486-4242-b426-0de15265ed01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/bookshelfLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/bookshelfLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/hibernate.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/hibernate.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/allBooks.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/allBooks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bookDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/bookDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/allBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/bookDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/css/allBooks.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/css/allBooks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/css/bookDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/css/bookDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/editBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/editBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/bookshelfProject/results.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.AuthorDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-amgenz.test.persistence.BookDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.AuthorDaoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.BookDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/amgenz.test.persistence.BookDaoTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +294,7 @@
       <workItem from="1701646525424" duration="169000" />
       <workItem from="1701646811540" duration="3294000" />
       <workItem from="1701903015654" duration="3557000" />
-      <workItem from="1701993535054" duration="28977000" />
+      <workItem from="1701993535054" duration="29462000" />
     </task>
     <servers />
   </component>
